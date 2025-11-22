@@ -8,7 +8,7 @@ import './globals.css';
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '600', '700'], // normal, semi-bold, bold
+  weight: ['400', '600', '700'], 
   variable: '--font-poppins',
 });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='light'>
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1">
