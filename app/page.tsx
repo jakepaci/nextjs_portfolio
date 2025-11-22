@@ -4,7 +4,7 @@ import FadeInSection from './components/fadein';
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-white">
       {/* PROFILE SECTION */}
       <FadeInSection>
       <section id="profile" className="min-h-screen flex items-center justify-center px-4 py-20 -mt-16">
