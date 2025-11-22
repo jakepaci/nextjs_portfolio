@@ -23,8 +23,8 @@ export default function Home() {
           <div className="text-center md:text-left">
             <p className="text-gray-600 mb-2 text-base">Hello, There</p>
             <div className="mb-4">
-              <span className="text-2xl">I'm </span>
-              <h1 className="text-5xl font-bold inline">Jake</h1>
+              <span className="text-2xl text-black">I'm </span>
+              <h1 className="text-5xl font-bold inline text-black">Jake</h1>
             </div>
             <p className="text-xl text-gray-700 mb-6">Student Developer</p>
             
@@ -57,7 +57,7 @@ export default function Home() {
       <FadeInSection delay={700}>
       <section id="about" className="min-h-screen flex items-center justify-center px-4 py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12">Welcome to my nerdy side of the internet</h1>
+          <h1 className="text-4xl font-bold text-center mb-12 text text-black">Welcome to my nerdy side of the internet</h1>
           
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
@@ -91,7 +91,7 @@ export default function Home() {
       <FadeInSection delay={700}>
       <section id="tech" className="min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12">Tech</h1>
+          <h1 className="text-4xl font-bold text-center mb-12 text-black">Tech</h1>
           
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2 flex justify-center items-center -mt-18">
@@ -201,7 +201,7 @@ export default function Home() {
 
 <section id="projects" className="min-h-screen flex items-center justify-center px-4 py-20">
   <div className="max-w-6xl mx-auto">
-    <h1 className="text-4xl font-bold text-center mb-4">Projects</h1>
+    <h1 className="text-4xl font-bold text-center mb-4 text-black">Projects</h1>
     <p className="text-center text-gray-600 mb-12">Here are some of the projects I've worked on</p>
     
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -300,7 +300,7 @@ export default function Home() {
       <FadeInSection delay={700}>
       <section id="contact" className="min-h-screen flex items-center justify-center px-4 py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-600 mb-2">Get in Touch</p>
+          <p className="text-gray-600 mb-2 text-black">Get in Touch</p>
           <h1 className="text-4xl font-bold mb-12">Let's Turn Your Ideas into Reality</h1>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
