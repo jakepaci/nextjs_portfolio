@@ -216,7 +216,7 @@ export default function Home() {
       />
         </div>
         <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">Halmeoni</h3>
+          <h3 className="text-xl font-bold mb-2 text-black">Halmeoni</h3>
           <p className="text-gray-600 mb-4">
             A mockup e-commerce website for a restaurant. Created for a friend from Ateneo de Manila University, featuring a modern design and user-friendly interface.
           </p>
@@ -247,7 +247,7 @@ export default function Home() {
       />
         </div>
         <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">UniHub</h3>
+          <h3 className="text-xl font-bold mb-2 text-black">UniHub</h3>
           <p className="text-gray-600 mb-4">
             An e-commerce platform exclusively designed for university students. Part of our startup initiative to connect students with campus-specific services and products.
           </p>
@@ -273,7 +273,7 @@ export default function Home() {
           <span className="text-6xl">💝</span>
         </div>
         <div className="p-6">
-          <h3 className="text-xl font-bold mb-2">Valentine's Survey</h3>
+          <h3 className="text-xl font-bold mb-2 text-black">Valentine's Survey</h3>
           <p className="text-gray-600 mb-4">
             A creative and interactive survey website I built to ask someone special out on Valentine's Day. Features fun animations and a unique user experience.
           </p>
@@ -301,7 +301,7 @@ export default function Home() {
       <section id="contact" className="min-h-screen flex items-center justify-center px-4 py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-600 mb-2 text-black">Get in Touch</p>
-          <h1 className="text-4xl font-bold mb-12">Let's Turn Your Ideas into Reality</h1>
+          <h1 className="text-4xl font-bold mb-12 text-black">Let's Turn Your Ideas into Reality</h1>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
             <div className="w-80 h-80 relative rounded-lg overflow-hidden">
